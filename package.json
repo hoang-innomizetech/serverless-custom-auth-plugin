@@ -1,6 +1,6 @@
 {
   "name": "serverless-custom-auth-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "node": ">=8.0"
   },
@@ -25,12 +25,7 @@
   ],
   "main": "index.js",
   "bin": {},
-  "scripts": {
-    "test": "mocha tests/all"
-  },
-  "devDependencies": {
-    "chai": "^3.2.0",
-    "mocha": "^2.2.5"
-  },
+  "scripts": {},
+  "devDependencies": {},
   "dependencies": {}
 }
