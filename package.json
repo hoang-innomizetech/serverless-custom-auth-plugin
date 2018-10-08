@@ -1,0 +1,36 @@
+{
+  "name": "serverless-custom-auth-plugin",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=8.0"
+  },
+  "description": "Serverless Custom Auth Plugin - A serverless plugin that adds the possibility to configure AWS_IAM or Cognito Auth for your API Gateway endpoints and 'Invoke with caller credentials'",
+  "author": "InnomizeTech",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/innomizetech/serverless-custom-auth-plugin"
+  },
+  "keywords": [
+    "serverless custom auth",
+    "serverless applications",
+    "serverless plugins",
+    "api gateway",
+    "lambda",
+    "aws",
+    "aws lambda",
+    "amazon",
+    "amazon web services",
+    "serverless.com"
+  ],
+  "main": "index.js",
+  "bin": {},
+  "scripts": {
+    "test": "mocha tests/all"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {}
+}
