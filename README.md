@@ -25,10 +25,10 @@ plugins:
 First, you will need to add your custom Authorizer with a friendly name
 
 ```yml
-XXXAuthorizerAuthorizer:
+XXXAuthorizer:
   Type: AWS::ApiGateway::Authorizer
   Properties:
-    AuthorizerUri: 
+    AuthorizerUri:
       Ref: CognitoUserPoolXXX
     IdentitySource: method.request.header.Authorization
     Name: Friendly Name of this authorizer
