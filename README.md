@@ -1,4 +1,5 @@
-# Serverless AWS Custom Auth Plugin
+
+# Serverless AWS Custom Auth Plugin - deprecated
 
 =============================
 
